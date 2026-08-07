@@ -1,0 +1,15 @@
+{
+	"name": "giridas34",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "39e7b796-202e-43aa-a3fe-ea3ec7e39980",
+		"tenantId": "07de6f8b-2f8e-445a-9c28-007caaa901ec"
+	}
+}
