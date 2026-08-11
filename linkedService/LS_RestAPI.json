@@ -1,0 +1,18 @@
+{
+	"name": "LS_RestAPI",
+	"properties": {
+		"parameters": {
+			"LS_param_SourceURL": {
+				"type": "string",
+				"defaultValue": "https://jsonplaceholder.typicode.com/todos/"
+			}
+		},
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "@{linkedService().LS_param_SourceURL}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
